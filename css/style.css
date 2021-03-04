@@ -1,3 +1,8 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav-wrapper{
     background-color: #6f4037;
 }
@@ -7,4 +12,64 @@
 .move{
     margin-top: 60px;
     margin-bottom: 20px;
+}
+.parallax-container{
+    min-height: 280px;
+    height: auto;
+}
+.icon-coffee{
+    color: #6f4037;
+}
+
+.footer-one{
+    background: #6f4037;
+}
+
+.footer-two{
+    background: #462822;
+}
+
+.ele1{
+    margin-left: 200px;
+}
+
+.ele2{
+    margin-left: 250px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .ele1{
+        margin-left: 0px;
+    }
+    
+    .ele2{
+        margin-left: 50px;
+    }
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .ele1{
+        margin-left: 0px;
+    }
+    
+    .ele2{
+        margin-left: 50px;
+    }
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    .ele1{
+        margin-left: 0px;
+    }
+    
+    .ele2{
+        margin-left: 50px;
+    }
 }
